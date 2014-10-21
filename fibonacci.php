@@ -6,6 +6,11 @@
  * @author Stoyan Rangelov (devsoul) <stoyan.rangelov@gmail.com>
  */
 
+/**
+ * @param int $n
+ *
+ * @return mixed
+ */
 function fibonacci($n) {
     if ($n < 2) {
         return $n;

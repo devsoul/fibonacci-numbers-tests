@@ -8,6 +8,9 @@ Fibonacci numbers performance test
 ### PHP test 
 	time php fibonacci.php
 
+### PERL test
+	time perl fibonacci.pl
+	
 ### Python test
 	time python fibonacci.py
 	time python3 fibonacci.py
