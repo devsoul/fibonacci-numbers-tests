@@ -15,6 +15,9 @@ Fibonacci numbers performance test
 	time python fibonacci.py
 	time python3 fibonacci.py
 
+### Ruby test
+	time ruby fibonacci.rb
+	
 ### Java test
     javac Fibonacci.java 
     time java Fibonacci 
