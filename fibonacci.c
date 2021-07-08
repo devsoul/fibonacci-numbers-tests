@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-int fibonacci(n) {
+int fibonacci(int n) {
     if (n < 2) {
         return n;
     }

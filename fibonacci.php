@@ -1,17 +1,8 @@
 <?php
+declare(strict_types=1);
 
-/**
- * Fibonacci performance test
- * 
- * @author Stoyan Rangelov (devsoul) <stoyan.rangelov@gmail.com>
- */
-
-/**
- * @param int $n
- *
- * @return mixed
- */
-function fibonacci($n) {
+function fibonacci(int $n): int
+{
     if ($n < 2) {
         return $n;
     }
@@ -19,5 +10,3 @@ function fibonacci($n) {
 }
 
 echo fibonacci(30) . "\n";
-
-

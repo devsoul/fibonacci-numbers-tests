@@ -5,14 +5,13 @@ Fibonacci numbers performance test
 	git clone git@github.com:devsoul/fibonacci-numbers-tests.git fibonacci
 	cd fibonacci
 	
-### PHP test 
+### PHP test
 	time php fibonacci.php
 
 ### PERL test
 	time perl fibonacci.pl
 	
 ### Python test
-	time python fibonacci.py
 	time python3 fibonacci.py
 
 ### Ruby test
@@ -27,32 +26,28 @@ Fibonacci numbers performance test
     time ./fibonacci
 
 ### Results
-    time php fibonacci.php #7.2.10
+    time php fibonacci.php # 8.0.8
     832040
-    php fibonacci.php  1,20s user 0,02s system 99% cpu 1,220 total
+    php fibonacci.php  0.50s user 0.00s system 99% cpu 0.506 total
 
-    time perl fibonacci.pl #5.26.1
+    time perl fibonacci.pl # 5.32.1
     832040
-    perl fibonacci.pl  0,55s user 0,00s system 99% cpu 0,548 total
+    perl fibonacci.pl  0.39s user 0.00s system 99% cpu 0.385 total
 
-    time python fibonacci.py #2.7.15
+    time python fibonacci.py # 3.9.5
     832040
-    python fibonacci.py  0,25s user 0,00s system 99% cpu 0,258 total
+    python3.9 fibonacci.py  0.17s user 0.00s system 99% cpu 0.168 total
 
-    time python3 fibonacci.py #3.6.6
+    time ruby fibonacci.rb # 2.7.2p137
     832040
-    python3 fibonacci.py  0,30s user 0,01s system 99% cpu 0,306 total
+    ruby fibonacci.rb  0.11s user 0.00s system 99% cpu 0.110 total
 
-    time ruby fibonacci.rb #2.5.1p57
-    832040
-    ruby fibonacci.rb  0,18s user 0,01s system 84% cpu 0,217 total
-
-    javac Fibonacci.java #1.8.0_181
+    javac Fibonacci.java # 11.0.11
     time java Fibonacci
     832040
-    java Fibonacci  0,08s user 0,02s system 105% cpu 0,093 total
+    java Fibonacci  0.06s user 0.01s system 82% cpu 0.083 total
 
-    gcc -o fibonacci fibonacci.c #7.3.0-27
+    gcc -o fibonacci fibonacci.c # 10.3.0
     time ./fibonacci
     832040
-    ./fibonacci  0,03s user 0,00s system 98% cpu 0,026 total
+    ./fibonacci  0.01s user 0.00s system 97% cpu 0.007 total
