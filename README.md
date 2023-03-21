@@ -25,6 +25,9 @@ Fibonacci numbers performance test
     gcc -o fibonacci fibonacci.c
     time ./fibonacci
 
+### NodeJS test
+    time node fibonacci.js
+
 ### Results
     time php fibonacci.php # 8.2.4
     832040
@@ -51,3 +54,7 @@ Fibonacci numbers performance test
     time ./fibonacci
     832040
     ./fibonacci  0.01s user 0.00s system 97% cpu 0.007 total
+
+    $ time node fibonacci.js # 19.8.1
+    832040
+    node fibonacci.js  0.05s user 0.01s system 94% cpu 0.063 total
