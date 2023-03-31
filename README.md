@@ -49,10 +49,10 @@ Fibonacci numbers performance test
     832040
     ruby fibonacci.rb  0.11s user 0.00s system 99% cpu 0.110 total
 
-    javac Fibonacci.java # 11.0.11
+    javac Fibonacci.java # openjdk 20
     time java Fibonacci
     832040
-    java Fibonacci  0.06s user 0.01s system 82% cpu 0.083 total
+    java Fibonacci  0.04s user 0.02s system 34% cpu 0.194 total
 
     gcc -o fibonacci fibonacci.c # 10.3.0
     time ./fibonacci
