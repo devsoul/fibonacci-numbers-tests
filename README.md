@@ -28,6 +28,10 @@ Fibonacci numbers performance test
 ### NodeJS test
     time node fibonacci.js
 
+### Rust test
+    rustc fibonacci.rs
+    time ./fibonacci
+
 ### Results
     time php fibonacci.php # 8.2.4
     832040
@@ -55,6 +59,11 @@ Fibonacci numbers performance test
     832040
     ./fibonacci  0.01s user 0.00s system 97% cpu 0.007 total
 
-    $ time node fibonacci.js # 19.8.1
+    time node fibonacci.js # 19.8.1
     832040
     node fibonacci.js  0.05s user 0.01s system 94% cpu 0.063 total
+
+    rustc fibonacci.rs # 1.68.1
+    time ./fibonacci
+    832040
+    ./fibonacci  0.01s user 0.00s system 88% cpu 0.019 total
