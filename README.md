@@ -33,17 +33,17 @@ Fibonacci numbers performance test
     time ./fibonacci
 
 ### Results
-    time php fibonacci.php # 8.2.4
+    time php fibonacci.php # 8.2.5
     832040
-    php fibonacci.php  0.10s user 0.01s system 93% cpu 0.116 total
+    php fibonacci.php  0.10s user 0.01s system 96% cpu 0.114 total
 
-    time perl fibonacci.pl # 5.32.1
+    time perl fibonacci.pl # 5.30.3
     832040
-    perl fibonacci.pl  0.39s user 0.00s system 99% cpu 0.385 total
+    perl fibonacci.pl  0.29s user 0.01s system 98% cpu 0.301 total
 
-    time python3 fibonacci.py # 3.11.2
+    time python3 fibonacci.py # 3.11.3
     832040
-    python3 fibonacci.py  0.12s user 0.02s system 85% cpu 0.154 total
+    python3 fibonacci.py  0.10s user 0.01s system 80% cpu 0.134 total
 
     time ruby fibonacci.rb # 2.7.2p137
     832040
