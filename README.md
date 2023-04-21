@@ -1,4 +1,5 @@
-Fibonacci numbers performance test
+Fibonacci numbers performance test 
+Tested on M1 pro and M2 pro Apple silicone
 ==================================
 
 ### Clone the repo
