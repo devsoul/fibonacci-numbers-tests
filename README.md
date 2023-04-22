@@ -1,6 +1,7 @@
-Fibonacci numbers performance test 
-Tested on M1 pro and M2 pro Apple silicone
+Fibonacci numbers performance test
 ==================================
+
+### Latest iteration was executed on Apple silicon M1/M2 pro
 
 ### Clone the repo
 	git clone git@github.com:devsoul/fibonacci-numbers-tests.git fibonacci
